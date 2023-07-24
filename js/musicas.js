@@ -294,6 +294,7 @@ audiorange.addEventListener("change", function() {
     audio.currentTime = (audio.duration  * (parseFloat(document.querySelector('.audiorange').value) / 100))
     if(estavaTocando == true) { 
         audio.play()
+        estavaTocando = false
     }
 }, false);
 
