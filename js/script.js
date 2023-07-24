@@ -120,11 +120,24 @@ function botaoloop() {
 
 const saveicon = document.getElementById('saveicon')
 
+let saveicon1 = './assets/imgs/saveicon.png'
+let saveicon2 = './assets/imgs/saveicon2.png'
+
+let verificacao = false
+
 function saveIcon() {
-    if(saveicon.src == './assets/imgs/saveicon2.png') {
-        saveicon.src = './assets/imgs/saveicon.png'
+
+    if(verificacao == false) {
+        verificacao = true
     } else {
+        verificacao = false
+    }
+    
+
+    if(verificacao == true) {
         saveicon.src = './assets/imgs/saveicon2.png'
+    } else {
+        saveicon.src = './assets/imgs/saveicon.png'
     }
 }
 
