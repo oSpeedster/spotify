@@ -67,6 +67,16 @@ let musica6 = {
     
 }
 
+let musica7 = {
+    nomeMusica: 'Calling',
+    nomeArtista: 'Metro Boomin',
+    linkMusica: './assets/Calling_iWDxMpLvaUE.mp3',
+    imgMusica: 'https://i.scdn.co/image/ab67616d0000b2736ed9aef791159496b286179f',
+    duracao: '3:40',
+    posicao: '7'
+    
+}
+
 // ------ MUSICAS ------ // 
 
 // ------ SCRIPT PL ------ // 
