@@ -5,7 +5,7 @@ const iconeMusica = document.getElementById('iconebarra');
 
 // ------ MUSICAS ------ // 
 
-const numeroTotal = 6
+const numeroTotal = 7
 
 let musica1 = {
     nomeMusica: 'Plutão',
@@ -328,3 +328,11 @@ function updateProgressBar() {
 loopFunction(1, testeProgress);
 
 
+
+function perfilPlh() {
+
+    document.querySelector('.txtplh3').innerHTML = `\n<div class="perfilplh">A</div>\nnomePerfil • ${numeroTotal} músicas\n`
+
+}
+
+perfilPlh();
