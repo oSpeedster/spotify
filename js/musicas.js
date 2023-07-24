@@ -269,6 +269,9 @@ function updateProgressBar() {
     progressBar.style.width = `${progressPercent}%`;
     progressb.style.left = `${((progressPercent * 3.6) + 367)}px`;
     
+    const audiorange = document.querySelector('.audiorange')
+
+    audiorange.value = progressPercent;
 
     // 0 = 367
     // 50 = 547
