@@ -5,7 +5,7 @@ const iconeMusica = document.getElementById('iconebarra');
 
 // ------ MUSICAS ------ // 
 
-const numeroTotal = 7
+let numeroTotal = 7
 
 let musica1 = {
     nomeMusica: 'Plutão',
@@ -96,6 +96,9 @@ function scriptPl(musica) {
     posicao.innerHTML = musica.posicao;
 
     let variavel = eval(`musica${parseInt(musica.posicao) + 1}`)
+
+    numeroTotal = (parseInt(musica.posicao) + 1);
+    document.querySelector('.txtplh3').innerHTML = `\n<div class="perfilplh">A</div>\nnomePerfil • ${numeroTotal} músicas\n`
 
     if(variavel != "undefined") {
         scriptPl(variavel)
@@ -327,12 +330,3 @@ function updateProgressBar() {
 
 loopFunction(1, testeProgress);
 
-
-
-function perfilPlh() {
-
-    document.querySelector('.txtplh3').innerHTML = `\n<div class="perfilplh">A</div>\nnomePerfil • ${numeroTotal} músicas\n`
-
-}
-
-perfilPlh();
