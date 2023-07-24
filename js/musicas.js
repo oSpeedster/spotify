@@ -11,7 +11,7 @@ let musica1 = {
     nomeMusica: 'Plutão',
     nomeArtista: 'VMZ',
     linkMusica: './assets/Plutão_Alw_AUN9XNQ.mp3',
-    imgMusica: 'https://i.scdn.co/image/ab67616d0000b273c88177b85ee246a6ea5125a4',
+    imgMusica: './assets/imgs/plutaoicon.jpg',
     duracao: '3:41',
     posicao: '1'
 }
@@ -22,7 +22,7 @@ let musica2 = {
     nomeArtista: 'Metro Boomin',
     // Metro Boomin, Swae Lee, Lil Wayne, Offset
     linkMusica: './assets/Annihilate_eFV2QHqiUww.mp3',
-    imgMusica: 'https://i.scdn.co/image/ab67616d0000b2736ed9aef791159496b286179f',
+    imgMusica: './assets/imgs/annihilateicon.jpg',
     duracao: '3:51',
     posicao: '2'
 }
@@ -31,7 +31,7 @@ let musica3 = {
     nomeMusica: 'Sunflower',
     nomeArtista: 'Post Malone',
     linkMusica: './assets/Sunflower_r7Rn4ryE_w8.mp3',
-    imgMusica: 'https://i.scdn.co/image/ab67616d0000b273e2e352d89826aef6dbd5ff8f',
+    imgMusica: './assets/imgs/sunflowericon.jpg',
     duracao: '2:38',
     posicao: '3'
     
@@ -41,7 +41,7 @@ let musica4 = {
     nomeMusica: 'I Ain’t Worried',
     nomeArtista: 'One Republic',
     linkMusica: './assets/I Ain’t Worried_W97Sv-SHnDU.mp3',
-    imgMusica: 'https://i.scdn.co/image/ab67616d0000b273ec96e006b8bdfc582610ec13',
+    imgMusica: './assets/imgs/iaintworriedicon.jpg',
     duracao: '2:27',
     posicao: '4'
     
@@ -51,7 +51,7 @@ let musica5 = {
     nomeMusica: 'Nothing Else Matters',
     nomeArtista: 'Metallica',
     linkMusica: './assets/Nothing Else Matters_ozXZnwYTMbs.mp3',
-    imgMusica: 'https://i.scdn.co/image/ab67616d0000b273f2f3cd931f707244804807c1',
+    imgMusica: './assets/imgs/nothingelsematters.jpg',
     duracao: '6:28',
     posicao: '5'
     
@@ -61,7 +61,7 @@ let musica6 = {
     nomeMusica: 'Creep (Acoustic)',
     nomeArtista: 'Radiohead',
     linkMusica: './assets/Creep (Acoustic)_4BX5xpB2DBM.mp3',
-    imgMusica: 'https://i.scdn.co/image/ab67616d0000b2733340ec817b195f40615cc647',
+    imgMusica: './assets/imgs/ceepicon.jpg',
     duracao: '4:18',
     posicao: '6'
     
@@ -71,7 +71,7 @@ let musica7 = {
     nomeMusica: 'Calling',
     nomeArtista: 'Metro Boomin',
     linkMusica: './assets/Calling_iWDxMpLvaUE.mp3',
-    imgMusica: 'https://i.scdn.co/image/ab67616d0000b2736ed9aef791159496b286179f',
+    imgMusica: './assets/imgs/callingicon',
     duracao: '3:40',
     posicao: '7'
     

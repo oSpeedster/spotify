@@ -138,22 +138,27 @@
 
 // 843px - 943px
 
+let volume4 = "assets/imgs/volume-4.png"
+let volume3 = "assets/imgs/volume-3.png"
+let volume2 = "assets/imgs/volume-2.png"
+let volume1 = "assets/imgs/volume-1.png"
+
 function volumeBar() {
     let volumerange = document.querySelector('.volumerange');
 
     audio.volume = (volumerange.value / 100)
 
     if(volumerange.value >= 70) {
-        document.getElementById('volumeicon').src = 'https://cdn-icons-png.flaticon.com/512/3/3745.png'
+        document.getElementById('volumeicon').src = volume4;
     }
     if(volumerange.value >= 40 && volumerange.value <= 69) {
-        document.getElementById('volumeicon').src = 'https://cdn-icons-png.flaticon.com/512/727/727269.png'
+        document.getElementById('volumeicon').src = volume3;
     }
     if(volumerange.value >= 1 && volumerange.value <= 39) {
-        document.getElementById('volumeicon').src = 'https://cdn-icons-png.flaticon.com/512/727/727270.png'
+        document.getElementById('volumeicon').src = volume2;
     }
     if(volumerange.value == 0) {
-        document.getElementById('volumeicon').src = 'https://cdn-icons-png.flaticon.com/512/786/786387.png'
+        document.getElementById('volumeicon').src = volume1;
     }
 
 }

@@ -59,24 +59,24 @@ function searchBoxTab() {
 
 const audio = document.getElementById('audio');
 
-let playbotao = "https://cdn-icons-png.flaticon.com/512/27/27223.png"
+let playbotao = "./assets/imgs/playicon.png"
 let playicon = document.getElementById('playicon');
 
 function botaomidia() {
 if(audio.paused) {
     audio.play()
-    playicon.src = "https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-pause-512.png"
+    playicon.src = "./assets/imgs/pauseicon.png"
 } else {
     audio.pause()
-    playicon.src = "https://cdn-icons-png.flaticon.com/512/27/27223.png"
+    playicon.src = "./assets/imgs/playicon.png"
 }
 }
 
 function botaomidia2() {
     if(audio.paused) {
-        playicon.src = "https://cdn-icons-png.flaticon.com/512/27/27223.png"
+        playicon.src = "./assets/imgs/playicon.png"
     } else {
-        playicon.src = "https://cdn4.iconfinder.com/data/icons/ionicons/512/icon-pause-512.png"
+        playicon.src = "./assets/imgs/pauseicon.png"
     }
     }
 
@@ -121,10 +121,10 @@ function botaoloop() {
 const saveicon = document.getElementById('saveicon')
 
 function saveIcon() {
-    if(saveicon.src == 'https://cdn-icons-png.flaticon.com/512/777/777088.png') {
-        saveicon.src = 'https://cdn-icons-png.flaticon.com/256/1077/1077035.png'
+    if(saveicon.src == './assets/imgs/saveicon2.png') {
+        saveicon.src = './assets/imgs/saveicon.png'
     } else {
-        saveicon.src = 'https://cdn-icons-png.flaticon.com/512/777/777088.png'
+        saveicon.src = './assets/imgs/saveicon2.png'
     }
 }
 
