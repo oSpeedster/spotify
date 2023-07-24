@@ -289,10 +289,20 @@ audio.addEventListener('timeupdate', updateProgressBar);
 
 let audiorange = document.querySelector('.audiorange')
 
+
 audiorange.addEventListener("change", function() {
     audio.currentTime = (audio.duration  * (parseFloat(document.querySelector('.audiorange').value) / 100))
+    if(estavaTocando == true) { 
+        audio.play()
+    }
 }, false);
 
+audiorange.addEventListener("input", function() {
+    if(!audio.paused) {
+        audio.pause()
+        estavaTocando = true
+    }
+}, false);
 
   
     //let mudarAudio = (audio.currentTime = (audio.duration  * (parseFloat(document.getElementById('progressprogress').style.width) / 100)))
