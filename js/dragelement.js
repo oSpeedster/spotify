@@ -138,7 +138,7 @@
 
 // 843px - 943px
 
-function testeteste() {
+function volumeBar() {
     let volumerange = document.querySelector('.volumerange');
 
     audio.volume = (volumerange.value / 100)
@@ -158,11 +158,11 @@ function testeteste() {
 
 }
 
-function loopTeste(delay, callback){
+function loopVolume(delay, callback){
     var loop = function(){
         callback();
         setTimeout(loop, delay);
     }; loop();
 };
 
-loopTeste(1, testeteste);
+loopVolume(1, volumeBar);
