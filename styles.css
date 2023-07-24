@@ -80,6 +80,11 @@
         display: none;
     }
 
+    .menuicon {
+        width: 100px;
+        height: 100px;
+    }
+
     .menu-mobile-open {
         width: 620px;
         height: 900px;
