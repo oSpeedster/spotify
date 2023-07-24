@@ -650,6 +650,8 @@
 
 @media(max-width: 768px) {
 
+    /* 430 x 770 */
+
     .biblioteca, .menu, .headericon, #volumeb {
         display: none;
     }
