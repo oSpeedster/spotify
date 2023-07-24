@@ -71,7 +71,7 @@ let musica7 = {
     nomeMusica: 'Calling',
     nomeArtista: 'Metro Boomin',
     linkMusica: './assets/Calling_iWDxMpLvaUE.mp3',
-    imgMusica: './assets/imgs/callingicon',
+    imgMusica: './assets/imgs/callingicon.jpg',
     duracao: '3:40',
     posicao: '7'
     
