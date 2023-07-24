@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musica - Web Player de Música</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="scrolltext.css">
+    <link rel="stylesheet" href="./TESTE/stylesTESTE.css">
+    <link rel="stylesheet" href="styles-playlist.css">
+    <link rel="icon" type="image/x-icon" href="https://cdn-icons-png.flaticon.com/512/6737/6737653.png">
+</head>
+<body>
+    <div class="divtudo">
+        <div class="divtudo2">
+            <div class="ladoesquerdo">
+                <div class="menu">
+                    <ul>
+                        <div onclick="clickInicio()" class="homeli li">
+                            <img class="homeicon" src="https://cdn-icons-png.flaticon.com/512/1946/1946488.png">
+                            <li>Início</li>
+                        </div>
+                        <div class="searchli li">
+                            <img class="searchicon" src="https://cdn-icons-png.flaticon.com/512/3031/3031293.png">
+                            <li>Buscar</li>
+                        </div>
+                    </ul>
+                </div>
+                <div class="biblioteca">
+                    <div class="suabiblioteca">
+                        <img class="libraryicon" src="https://cdn0.iconfinder.com/data/icons/spotify-line-ui-kit/100/your-library-line-512.png">
+                        Sua Biblioteca
+                    </div>
+                    <div class="opcoes">
+                        <div class="redondo">Playlists</div>
+                        <div class="redondo">Artista</div>
+                        <div class="redondo">Podcast</div>
+                    </div>
+                    <div class="playlists">
+                        <div class="tab">
+                            <div class="seacrhDiv">
+                                <img onclick="searchBoxTab()" class="searchicon2" src="https://cdn-icons-png.flaticon.com/512/3031/3031293.png">
+                                <input id="searchbox-tab" role="searchbox" maxlength="80" placeholder="Buscar em Sua Biblioteca">
+                            </div>
+                            <select class="opts">
+                                <option>RECENTES</option>
+                                <option>ADICIONADO RECENTEMENTE</option>
+                                <option>ORDEM ALFABÉTICA</option>
+                                <option>CRIADOR</option>
+                            </select>
+                        </div>
+                        <div class="divpls">
+                            <div onclick="clickTeste()" class="divpl">
+                                <img class="iconepl"src="https://images.genius.com/c69f44017fc3c11831eea3f495c4a466.999x999x1.png" >
+                                MÚSICAS (CLICAR)
+                            </div>
+                            <div class="divpl">
+                                <img class="iconepl"src="https://m.media-amazon.com/images/I/61kT5RTssKL._UF1000,1000_QL80_.jpg" >
+                                PLAYLISTS
+                            </div>
+                            <div class="divpl">
+                                <img class="iconepl"src="https://m.media-amazon.com/images/I/81BHgGcixpL._UF1000,1000_QL80_.jpg" >
+                                PLAYLISTS
+                            </div>
+                            <div class="divpl">
+                                <img class="iconepl"src="https://www.superherohype.com/wp-content/uploads/sites/4/2023/05/across-the-spider-verse-soundtrack-header.png" >
+                                PLAYLISTS
+                            </div>
+                            <div class="divpl">
+                                <img class="iconepl"src="https://remezcla.com/wp-content/uploads/2023/06/Miles-Morales-Spider-Man-Film.jpg" >
+                                PLAYLISTS
+                            </div>
+                            <div class="divpl">
+                                <img class="iconepl"src="https://images.genius.com/c69f44017fc3c11831eea3f495c4a466.999x999x1.png" >
+                                PLAYLISTS
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tela">
+                <div class="header">
+                    <div class="headericon">
+                        <img class="voltarbotao botaomidia" src="https://cdn.icon-icons.com/icons2/1674/PNG/512/arrowiosback_111116.png">
+                        <img id="avancarbotao" class="botaomidia" src="https://cdn.icon-icons.com/icons2/1674/PNG/512/arrowiosback_111116.png">
+                    </div>
+                    <div id="menumobile" class="menumobile">
+                        <div onclick="menuMobileOpen()" id="menu-mobile" class="menu-mobile font-menu">MENU</div>
+                        <div id="menu-mobile-open" class="menu-mobile-open">
+                            <div onclick="menuMobileClose()" id="menu-mobile2" class="menu-mobile2 font-menu">MENU2</div>
+                            <div class="menu-">
+                                <ul>
+                                    <div onclick="clickInicio(), menuMobileClose()" class="homeli li">
+                                        <img class="homeicon-" src="https://cdn-icons-png.flaticon.com/512/1946/1946488.png">
+                                        <li class="li-">Início</li>
+                                    </div>
+                                </ul>
+                            </div>
+                            <div class="suabiblioteca suabiblioteca-">
+                                <img class="libraryicon-" src="https://cdn0.iconfinder.com/data/icons/spotify-line-ui-kit/100/your-library-line-512.png">
+                                Sua Biblioteca
+                            </div>
+                            <div class="divpls-">
+                                <div onclick="clickTeste(), menuMobileClose()" class="divpl-">
+                                    <img class="iconepl-"src="https://images.genius.com/c69f44017fc3c11831eea3f495c4a466.999x999x1.png" >
+                                    MÚSICAS (CLICAR)
+                                </div>
+                                <div class="divpl-">
+                                    <img class="iconepl-"src="https://m.media-amazon.com/images/I/61kT5RTssKL._UF1000,1000_QL80_.jpg" >
+                                    PLAYLISTS
+                                </div>
+                                <div class="divpl-">
+                                    <img class="iconepl-"src="https://m.media-amazon.com/images/I/81BHgGcixpL._UF1000,1000_QL80_.jpg" >
+                                    PLAYLISTS
+                                </div>
+                                <div class="divpl-">
+                                    <img class="iconepl-"src="https://www.superherohype.com/wp-content/uploads/sites/4/2023/05/across-the-spider-verse-soundtrack-header.png" >
+                                    PLAYLISTS
+                                </div>
+                                <div class="divpl-">
+                                    <img class="iconepl-"src="https://remezcla.com/wp-content/uploads/2023/06/Miles-Morales-Spider-Man-Film.jpg" >
+                                    PLAYLISTS
+                                </div>
+                                <div class="divpl-">
+                                    <img class="iconepl-"src="https://images.genius.com/c69f44017fc3c11831eea3f495c4a466.999x999x1.png" >
+                                    PLAYLISTS
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="perfilTodo">
+                        <div onclick="myFunction()" class="perfil" id="perfil">A</div>
+                        <div id="perfilMenu" class="perfilContent">
+                            <a href="#">Conta</a>
+                            <a href="#">Perfil</a>
+                            <a href="#">Configurações</a>
+                            <a class="sairPerfil" href="#">Sair</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="divteste">
+                    <div id="textotela">Boa Noite</div>
+                    <div class="playliststela">
+                        <div onclick="clickTeste()" class="playlisttela">
+                            <img class="iconeplaylist"src="https://images.genius.com/c69f44017fc3c11831eea3f495c4a466.999x999x1.png" >
+                            MÚSICAS (CLICAR)
+                        </div>
+                        <div class="playlisttela">
+                            <img class="iconeplaylist"src="https://m.media-amazon.com/images/I/61kT5RTssKL._UF1000,1000_QL80_.jpg" >
+                            PLAYLIST
+                        </div>
+                        <div class="playlisttela">
+                            <img class="iconeplaylist"src="https://m.media-amazon.com/images/I/81BHgGcixpL._UF1000,1000_QL80_.jpg" >
+                            PLAYLIST
+                        </div>
+                        <div class="playlisttela">
+                            <img class="iconeplaylist"src="https://www.superherohype.com/wp-content/uploads/sites/4/2023/05/across-the-spider-verse-soundtrack-header.png" >
+                            PLAYLIST
+                        </div>
+                        <div class="playlisttela">
+                            <img class="iconeplaylist"src="https://remezcla.com/wp-content/uploads/2023/06/Miles-Morales-Spider-Man-Film.jpg" >
+                            PLAYLIST
+                        </div>
+                        <div class="playlisttela">
+                            <img class="iconeplaylist"src="https://images.genius.com/c69f44017fc3c11831eea3f495c4a466.999x999x1.png" >
+                            PLAYLIST
+                        </div>
+                    </div>
+                    <div class="textobaixo">OUTROS ÁLBUNS</div>
+                    <div class="albuns">
+                        <div class="album">
+                            <img class="imgalbum" src="https://i.scdn.co/image/ab67616d0000b2736e761cec78b5205db0018ab0">
+                            Mix 2010
+                        </div>
+                        <div class="album">
+                            <img class="imgalbum" src="https://i.scdn.co/image/ab67616d0000b273c963815cb274e459a2e3e87b">
+                            Summer 2020
+                        </div>
+                        <div class="album">
+                            <img class="imgalbum" src="https://i.scdn.co/image/ab67616d0000b273b94e7db118a0d8e7c587e83a">
+                            Top Hits 2023
+                        </div>
+                    </div>
+                </div>
+
+                <div class="divteste2">
+                    <div class="playlistheader">
+                        <img class="iconeplh" src="https://images.genius.com/c69f44017fc3c11831eea3f495c4a466.999x999x1.png" >
+                        <div class="textoplh">
+                            <div class="txtplh1">Playlist</div>
+                            <div class="txtplh2">MÚSICAS (CLICAR)</div>
+                            <div class="txtplh3">
+                                <div class="perfilplh">A</div>
+                                nomePerfil • X músicas
+                            </div>
+                        </div>
+                    </div>
+                    <div class="menuplh">
+                        <button onclick="playlistTocar(musica1)" class="botaoplaymenuplh">
+                            <img class="playmenuplh" src="https://cdn-icons-png.flaticon.com/512/27/27223.png" >
+                        </button>
+                        <div onclick="playlistAleatorio()" class="botaorandommenuplh">
+                            <img class="randommenuplh" src="https://cdn.icon-icons.com/icons2/2622/PNG/512/gui_random_icon_157602.png" >
+                        </div>
+                    </div>
+                    <div class="musicasplaylist">
+                        <div class="infospl">
+                            <div>#</div>
+                            <div style="display: flex;">
+                                <div style="margin-left: -198px;">Título</div>
+                                <div style="margin-left: 257px;">Artista</div>
+                            </div>
+                            <div>Duração</div> 
+                        </div>
+                        <div id="musica1" onclick="musicaTocar(musica1)" class="musicas musicas-tudo">
+                            <div id="posicao1" class="musicas-tudo">0</div>
+                            <img id="iconepl1" class="iconemusicas musicas-tudo" src="https://cdn-icons-png.flaticon.com/512/6356/6356659.png" >
+                            <div class="musicainfo musicas-tudo">
+                                <div id="nome1" class="musicainfo-nome musicas-tudo" >Carregando...</div>
+                                <div id="artista1" class="musicainfo-artista musicas-tudo">Carregando...</div>
+                            </div>
+                            <div id="duracao1" class="duracao musicas-tudo">Carregando...</div>
+                        </div>
+                        <div id="musica2" onclick="musicaTocar(musica2)" class="musicas musicas-tudo">
+                            <div id="posicao2" class="musicas-tudo">0</div>
+                            <img id="iconepl2" class="iconemusicas musicas-tudo" src="https://cdn-icons-png.flaticon.com/512/6356/6356659.png" >
+                            <div class="musicainfo musicas-tudo">
+                                <div id="nome2" class="musicainfo-nome musicas-tudo" >Carregando...</div>
+                                <div id="artista2" class="musicainfo-artista musicas-tudo">Carregando...</div>
+                            </div>
+                            <div id="duracao2" class="duracao musicas-tudo">Carregando...</div>
+                        </div>
+                        <div id="musica3" onclick="musicaTocar(musica3)" class="musicas musicas-tudo">
+                            <div id="posicao3" class="musicas-tudo">0</div>
+                            <img id="iconepl3" class="iconemusicas musicas-tudo" src="https://cdn-icons-png.flaticon.com/512/6356/6356659.png" >
+                            <div class="musicainfo musicas-tudo">
+                                <div id="nome3" class="musicainfo-nome musicas-tudo" >Carregando...</div>
+                                <div id="artista3" class="musicainfo-artista musicas-tudo">Carregando...</div>
+                            </div>
+                            <div id="duracao3" class="duracao musicas-tudo">Carregando...</div>
+                        </div>
+                        <div id="musica4" onclick="musicaTocar(musica4)" class="musicas musicas-tudo">
+                            <div id="posicao4" class="musicas-tudo">0</div>
+                            <img id="iconepl4" class="iconemusicas musicas-tudo" src="https://cdn-icons-png.flaticon.com/512/6356/6356659.png" >
+                            <div class="musicainfo musicas-tudo">
+                                <div id="nome4" class="musicainfo-nome musicas-tudo" >Carregando...</div>
+                                <div id="artista4" class="musicainfo-artista musicas-tudo">Carregando...</div>
+                            </div>
+                            <div id="duracao4" class="duracao musicas-tudo">Carregando...</div>
+                        </div>
+                        <div id="musica5" onclick="musicaTocar(musica5)" class="musicas musicas-tudo">
+                            <div id="posicao5" class="musicas-tudo">0</div>
+                            <img id="iconepl5" class="iconemusicas musicas-tudo" src="https://cdn-icons-png.flaticon.com/512/6356/6356659.png" >
+                            <div class="musicainfo musicas-tudo">
+                                <div id="nome5" class="musicainfo-nome musicas-tudo" >Carregando...</div>
+                                <div id="artista5" class="musicainfo-artista musicas-tudo">Carregando...</div>
+                            </div>
+                            <div id="duracao5" class="duracao musicas-tudo">Carregando...</div>
+                        </div>
+                        <div id="musica6" onclick="musicaTocar(musica6)" class="musicas musicas-tudo">
+                            <div id="posicao6" class="musicas-tudo">0</div>
+                            <img id="iconepl6" class="iconemusicas musicas-tudo" src="https://cdn-icons-png.flaticon.com/512/6356/6356659.png" >
+                            <div class="musicainfo musicas-tudo">
+                                <div id="nome6" class="musicainfo-nome musicas-tudo" >Carregando...</div>
+                                <div id="artista6" class="musicainfo-artista musicas-tudo">Carregando...</div>
+                            </div>
+                            <div id="duracao6" class="duracao musicas-tudo">Carregando...</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="barra">
+            <div class="barraconteudo">
+                <div class="infobarra">
+                    <img id="iconebarra" src="https://i.scdn.co/image/ab67616d0000b273c88177b85ee246a6ea5125a4">
+                    <div class="musicabarra">
+                        <div id="nomemusica">Plutão</div>
+                        <div id="cantormusica">VMZ</div>
+                    </div>
+                    <div class="iconsbarra">
+                        <img onclick="saveIcon()" id="saveicon" class="saveicon" src="https://cdn-icons-png.flaticon.com/256/1077/1077035.png">
+                        <img class="pipicon" src="https://cdn.iconscout.com/icon/free/png-256/free-picture-in-picture-3605215-3004865.png">
+                    </div>
+                </div>
+                <div class="audiobarra">
+                    
+                    <div class="botoes">
+                        <button id="botaoaleatorio" class="botaomidia" disabled onclick="botaovoltar()">
+                            <img class="randomicon midiaicon" src="https://cdn.icon-icons.com/icons2/2622/PNG/512/gui_random_icon_157602.png">
+                        </button>
+                        <button id="botaovoltar" class="botaomidia" onclick="botaovoltar()">
+                            <img class="rewindicon midiaicon" src="https://cdn-icons-png.flaticon.com/512/17/17694.png">
+                        </button>
+                        <button id="botaoplay" class="botaomidia" onclick="botaomidia()">
+                            <img id="playicon" class="midiaicon" src="https://cdn-icons-png.flaticon.com/512/27/27223.png" >
+                        </button>
+                        <button id="botaoavancar" class="botaomidia" onclick="botaoavancar()">
+                            <img class="forwardicon midiaicon" src="https://cdn-icons-png.flaticon.com/512/17/17694.png">
+                        </button>
+                        <button id="botaoloop" class="botaomidia" onclick="botaoloop()">
+                            <img class="loopicon midiaicon" src="https://cdn-icons-png.flaticon.com/512/5247/5247950.png">
+                        </button>
+                    </div>
+                    <div class="playermusica">
+                        <div id="tempo-musica" class="tempomusica">0:00</div>
+                        <div class="progress-bar" id="progress-bar">
+                            <div id="progressprogress" class="progress"></div>
+                            <div id="progressb"></div>
+                        </div>
+                        <div id="tempo-musica-duracao" class="tempomusica">0:00</div>
+                    </div>
+                    
+                    <audio id="audio" class="audiocontrols">
+                        <source src="./assets/Plutão_Alw_AUN9XNQ.mp3" type="audio/mpeg" />
+                    </audio>
+
+                </div>
+                <div class="volumediv">
+                    <img id="volumeicon" class="midiaicon" src="https://cdn-icons-png.flaticon.com/512/727/727269.png" >
+                    <div class="volumebar">
+                        <div class="progressbar" id="progressbar"></div>
+                        <div id="volumeb"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script src="./js/musicas.js"></script>
+    <script src="./js/currenttime.js"></script>
+    <script src="./js/dragelement.js"></script>
+    <script src="./js/dragelementprogress.js"></script>
+    <script src="./TESTE/scriptTESTE.js"></script>
+    <script>scriptPl(musica1)</script>
+</body>
+</html>

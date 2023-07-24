@@ -1,0 +1,53 @@
+
+.musicabarra1 {
+
+    border-radius: 5px;
+    overflow: hidden;
+
+}
+
+
+/* #nomemusica { */
+
+    /* animation properties */
+    /* -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    
+    -moz-animation: my-animation 15s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 15s linear infinite; */
+/* } */
+
+/* #cantormusica { */
+    
+    /* animation properties */
+    /* -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+    
+    -moz-animation: my-animation 15s linear infinite;
+    -webkit-animation: my-animation 15s linear infinite;
+    animation: my-animation 15s linear infinite; */
+/* } */
+
+
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+    from { -webkit-transform: translateX(65%); }
+    to { -webkit-transform: translateX(-20%); }
+  }
+  
+  @keyframes my-animation {
+    from {
+      -moz-transform: translateX(65%);
+      -webkit-transform: translateX(65%);
+      transform: translateX(65%);
+    }
+    to {
+      -moz-transform: translateX(-20%);
+      -webkit-transform: translateX(-20%);
+      transform: translateX(-20%);
+    }
+}

@@ -1,0 +1,16 @@
+.divteste {
+    display: block;
+    padding-bottom: 100px;
+}
+
+.divteste2 {
+    display: none;
+}
+
+.voltarbotao {
+    cursor: not-allowed;
+}
+
+#avancarbotao {
+    cursor: not-allowed;
+}

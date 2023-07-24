@@ -1,0 +1,149 @@
+
+
+.playlistheader {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    background-color: #555;
+}
+
+.iconeplh {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.textoplh {
+    display: grid;
+    height: 200px;
+    background-color: #555;
+
+}
+
+    .txtplh1 {
+        font-size: 16px;
+        background-color: #555;
+    }
+
+    .txtplh2 {
+        font-size: 40px;
+        background-color: #555;
+    }
+
+    .txtplh3 {
+        display: flex;
+        align-items: center;
+        background-color: #555;
+    }
+
+        .perfilplh {
+            height: 40px;
+            width: 40px;
+            border-radius: 20px;
+            background-color: black;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            margin-right: 10px;
+        }
+
+.menuplh {
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+    .botaoplaymenuplh {
+        width: 60px;
+        height: 60px;
+        border-radius: 30px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        background-color: gray;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+
+    .playmenuplh {
+        width: 30px;
+        height: 30px;
+        background-color: gray;
+    }
+
+    .botaorandommenuplh {
+        width: 33px;
+        height: 33px;
+        border-radius: 30px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+
+    .randommenuplh {
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+    }
+    
+
+
+.musicasplaylist {
+    height: 200px;
+}
+
+    .infospl {
+        display: flex;
+        justify-content: space-between;
+        padding: 0px 15px;
+        border-bottom: 1px solid black;
+    }
+
+    .musicas {
+        display: flex;
+        align-items: center;
+        padding: 0px 15px;
+        height: 80px;
+
+    }
+
+    .musicas:hover {
+        background-color: gray;
+        cursor: pointer;
+    }
+
+    .musicas:hover .musicas-tudo {
+        background-color: gray;
+    }
+
+        .iconemusicas {
+            width: 70px;
+            height: 70px;
+            margin: 0px 20px;
+        }
+
+        .musicainfo {
+            display: flex;
+            height: 70px;
+            align-items: center;
+        }
+
+            .musicainfo-nome {
+                font-size: 18px;
+                width: 220px;
+            }
+
+            .musicainfo-artista {
+                font-size: 15px;
+                width: 265px;
+            }
+
+        .duracao {
+            margin-left: 20px;
+        }
+
+
+

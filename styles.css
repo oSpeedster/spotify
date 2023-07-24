@@ -1,0 +1,733 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    background-color: #161a1d;
+    list-style: none;
+    color: lightgray;
+    font-family: 'Lato', sans-serif;
+}
+
+.divtudo {
+    display: grid;
+    padding: 2px;
+}
+
+.divtudo2 {
+    display: flex;
+    padding: 2px;
+}
+
+.ladoesquerdo {
+    display: grid;
+    padding: 2px;
+}
+
+.menu {
+    width: 294px;
+    height: 100px;
+    border: 1px solid black;
+    display: grid;
+    align-items: center;
+    border-radius: 10px;
+    padding: 2px;
+    list-style: none;
+}
+
+    li {
+        padding: 10px;
+        font-size: 16px;
+        font-family: 'Lato', sans-serif;
+    }
+
+    li:hover {
+        color: white;
+        transition: .5s;
+    }
+
+    .li:hover {
+        cursor: pointer;
+        transition: .5s;
+    }
+
+    .homeli {
+        display: flex;
+        padding-left: 15px;
+    }
+
+    .homeicon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .searchli {
+        display: flex;
+        padding-left: 15px;
+        padding-top: 10px;
+    }
+
+    .searchicon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .menu-mobile2 {
+        display: none;
+    }
+
+    .menu-mobile-open {
+        width: 620px;
+        height: 900px;
+        border: 3px solid black ;
+        position: absolute;
+        display: none;
+    }
+
+    .font-menu {
+        font-size: 30px;
+    }
+
+    .menu- {
+        width: 400px;
+        height: 100px;
+        border: 1px solid black;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        border-radius: 10px;
+        padding: 2px;
+        margin-left: 120px;
+        list-style: none;
+    }
+
+    .li- {
+        font-size: 30px;
+    }
+
+    .homeicon- {
+        width: 50px;
+        height: 50px;
+    }
+
+    .suabiblioteca- {
+        font-size: 25px;
+        padding: 15px 0px;
+    }
+
+    .libraryicon- {
+        width: 40px;
+        height: 30px;
+    }
+
+    .divpl- {
+        width: 295px;
+        height: 160px;
+        border: 1px solid black;
+        border-radius: 10px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .iconepl- {
+        width: 100px;
+        height: 100px;
+        margin-left: 5px;
+        margin-right: 10px;
+        border-radius: 20px;
+    }
+
+    .divpls- {
+        margin-top: 5px;
+        margin-left: 5px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+.biblioteca {
+    width: 298px;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding-top: 7px;
+    margin-top: 13px;
+}
+
+    .suabiblioteca {
+        font-family: 'Lato', sans-serif;
+        margin-bottom: 5px;
+    }
+
+    .suabiblioteca:hover {
+        color: white;
+        cursor: pointer;
+        transition: .5s;
+    }
+
+        .libraryicon {
+            width: 20px;
+            height: 15px;
+        }
+
+    .opcoes {
+        height: 30px;
+        font-size: 15px;
+        font-family: 'Lato', sans-serif;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 12px;
+    }
+
+        .redondo {
+            width: 85px;
+            height: 20px;
+            border: 1px solid black;
+            border-radius: 20px;
+            display: grid;
+            justify-items: center;
+            align-content: center;
+        }
+
+        .redondo:hover {
+            cursor: pointer;
+            background-color: gray;
+            transition: .5s;
+        }
+
+    .tab {
+        height: 25px;
+        border-top: 1px solid black;
+        border-bottom: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        justify-content: space-between;
+    }
+
+
+        .seacrhDiv {
+            width: 201px;
+            display: flex;
+        }
+
+        #searchbox-tab {
+            display: none;
+        }
+
+        .searchicon2 {
+            width: 18px;
+            height: 18px;
+            padding-left: 5px;
+            padding-right: 5px;
+        }
+
+        .searchicon2:hover {
+            cursor: pointer;
+        }
+
+        .opts {
+            width: 100px;
+            border: none;
+        }
+        
+    .playlists {
+        height: 320px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .playlists:hover {
+        overflow-y: auto;
+    }
+
+        .divpls {
+            margin-top: 5px;
+            margin-left: 5px;
+        }
+
+        .divpl {
+            width: 275px;
+            height: 75px;
+            border: 1px solid black;
+            border-radius: 10px;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .divpl:hover {
+            cursor: pointer;
+            background-color: gray;
+            transition: .5s;
+        }
+
+        .iconepl {
+            width: 65px;
+            height: 65px;
+            margin-left: 5px;
+            margin-right: 10px;
+            border-radius: 20px;
+        }
+
+
+.tela {
+    width: 706px;
+    height: 528px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 5px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+
+
+.tela:hover {
+    overflow-y: auto;
+}
+
+    .header {
+        height: 50px;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+        .headericon {
+            display: flex;
+        }
+
+        .voltarbotao {
+            cursor: pointer;
+        }
+
+        #avancarbotao {
+            transform: rotate(180deg);
+            cursor: pointer;
+        }
+
+        .perfil {
+            height: 40px;
+            width: 40px;
+            border-radius: 20px;
+            background-color: black;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            margin-right: 10px;
+        }
+
+        .perfil:hover {
+            cursor: pointer;
+        }
+            .perfilTodo {
+                position: relative;
+                display: inline-block;
+            }
+            
+            .perfilContent {
+                display: none;
+                position: absolute;
+                background-color: dimgray;
+                min-width: 220px;
+                box-shadow: 0px 20px 16px 10px rgba(0,0,0,0.2);
+                z-index: 1;
+                inset: 43px 15px auto auto;
+                padding: 3px;
+            }
+
+            .perfilContent a {
+                color: white;
+                padding: 12px 16px;
+                text-decoration: none;
+                display: block;
+                background-color: darkslategray;
+              }
+
+            .perfilContent a:hover {background-color: dimgray;}
+
+            .show {display:block;}
+
+            .sairPerfil {
+                border-top: 2px solid dimgray;
+            }
+
+    #textotela {
+        margin-top: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 30px;
+    }
+
+    .playliststela {
+        width: 675px;
+        height: 220px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .playlisttela {
+        width: 325px;
+        height: 65px;
+        border: 1px solid black;
+        display: flex;
+        align-items: center;
+    }
+
+    .playlisttela:hover {
+        cursor: pointer;
+        background-color: gray;
+        transition: .5s;
+    }
+
+    .iconeplaylist {
+        width: 65px;
+        height: 65px;
+        margin-right: 10px;
+    }
+
+    .textobaixo {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+
+    .albuns {
+        height: 300px;
+        margin-left: 15px;
+        margin-bottom: 20px;
+        display: flex;
+    }
+
+    .album {
+        width: 215px;
+        height: 300px;
+        border: 1px solid black;
+        margin: 0px 10px;
+        display: grid;
+        justify-content: center;
+    }
+
+    .album:hover {
+        cursor: pointer;
+        background-color: gray;
+        transition: .5s;
+    }
+
+    .imgalbum {
+        width: 180px;
+        height: 180px;
+        border: 1px solid black;
+        margin-top: 15px;
+        border-radius: 8px;
+    }
+
+.barra {
+    width: 100%;
+    height: 100px;
+    border-top: 1px solid black;
+    display: contents;
+    position: fixed;
+}
+
+.barraconteudo {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+    .infobarra {
+        width: 300px;
+        display: flex;
+        align-items: center;
+    }
+
+    #iconebarra {
+        width: 80px;
+        height: 80px;
+        border-radius: 10px;
+        padding-right: 3px;
+    }
+
+    .musicabarra {
+        width: 80px;
+        height: 40px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+        #nomemusica {
+            font-size: 19px;
+        }
+
+        #cantormusica {
+            font-size: 16px;
+        }
+
+    .iconsbarra {
+        width: 50px;
+        height: 30px;
+        display: flex;
+        justify-content: space-between;
+        padding-left: 5px;
+    }
+
+    .iconsbarra:hover {
+        cursor: pointer;
+    }
+
+        .saveicon {
+            width: 20px;
+            height: 20px;
+        }
+
+        .pipicon {
+            width: 25px;
+            height: 25px;
+            margin-top: -2px;
+        }
+
+    .audiobarra {
+        width: 500px;
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .playermusica {
+        display: flex;
+        width: 500px;
+        height: 30px;
+        margin-bottom: 5px;
+    }
+
+    .tempomusica {
+        width: 50px;
+        margin: 14px;
+    }
+
+    .progress-bar {
+        width: 100%;
+        height: 10px;
+        background-color: #ddd;
+        margin-top: 20px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+      }
+      
+      .progress {
+        height: 100%;
+        background-color: #a4161a;
+        width: 0;
+        border-radius: 10px;
+      }
+
+      #progressb {
+        width: 15px;
+        height: 15px;
+        border-radius: 10px;
+        background-color: black;
+        position: absolute;
+        left: 372px;
+        /* left: 367px; */
+        cursor: pointer;
+      }
+
+    .audiocontrols {
+        width: 500px;
+        height: 30px;
+    }
+
+    .botoes {
+        display: flex;
+        width: 250px;
+        height: 50px;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .botaomidia {
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        background-color: darkslategray;
+    }
+
+    .midiaicon {
+        width: 20px;
+        height: 20px;
+        background-color: darkslategray;
+    }
+
+    #volumeicon {
+        background-color: #161a1d;
+    }
+
+    .forwardicon {
+        transform: rotate(180deg);
+    }
+
+
+    .volumediv {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 150px;
+    }
+
+    .volumebar {
+        width: 100px;
+        height: 5px;
+        background-color: lightslategray;
+        display: flex;
+        align-items: center;
+        border-radius: 5px;
+    }
+
+    .progressbar {
+        width: 100px;
+        height: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: end;
+        border-radius: 5px;
+        background-color: greenyellow;
+    }
+
+    #volumeb {
+        width: 15px;
+        height: 15px;
+        border-radius: 10px;
+        background-color: black;
+        position: absolute;
+        left: 943px;
+        cursor: pointer;
+    }
+
+/* ---------- Scroll Bar ---------- */
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: transparent; 
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #333; 
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #888; 
+  }
+
+/* ---------- Scroll Bar ---------- */
+
+
+@media(max-width: 768px) {
+
+    .biblioteca, .menu, .headericon, #volumeb {
+        display: none;
+    }
+
+
+    .playermusica {
+        margin-right: -80px;
+        margin-bottom: -150px;
+        width: 630px;
+    }
+
+    .progress-bar {
+        height: 15px;
+    }
+
+    #progressb {
+        width: 20px;
+        height: 20px;
+        border-radius: 20px;
+    }
+
+    #tempo-musica, #tempo-musica-duracao {
+        font-size: 25px;
+    }
+
+    .audiobarra {
+        width: 250px;
+    }
+
+    .volumediv {
+        margin: -180px 0px 0px 50px;
+    }
+
+    .infobarra {
+        width: 220px;
+        margin-top: -180px;
+    }
+
+    .playliststela {
+        height: 400px;
+    }
+
+    .playlisttela {
+        height: 125px;
+    }
+
+    .barraconteudo {
+        margin-top: 300px;
+    }
+
+    .tela {
+        height: 1000px;
+    }
+
+    .header {
+        height: 170px;
+    }
+
+    .perfil {
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
+        font-size: 40px;
+    }
+
+    .botaomidia {
+        width: 75px;
+        height: 75px;
+        border-radius: 75px
+    }
+
+    .midiaicon {
+        width: 50px;
+        height: 50px;
+    }
+
+    .botoes {
+        width: 500px;
+    }
+
+}
