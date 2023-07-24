@@ -648,7 +648,7 @@
 /* ---------- Scroll Bar ---------- */
 
 
-@media(max-width: 768px) {
+@media only screen and (max-device-width: 768px) {
 
     /* 430 x 770 */
 
