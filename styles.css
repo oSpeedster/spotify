@@ -600,7 +600,7 @@
         display: flex;
         align-items: center;
         justify-content: space-evenly;
-        width: 175px;
+        width: 200px;
     }
 
       input[type='range'] {
@@ -743,7 +743,7 @@
     }
 
     .volumediv {
-        margin: -180px 0px 0px 50px;
+        margin: -180px 0px 0px 30px;
     }
 
     .infobarra {
