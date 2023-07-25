@@ -93,7 +93,7 @@ function botaovoltar() {
     if(audio.currentTime = 0) {
         return
     } else {
-        audio.currentTime(0)
+        audio.currentTime = 0
     }
 }
 
