@@ -701,6 +701,10 @@
 
 /* ---------- Scroll Bar ---------- */
 
+.imagens {
+    -webkit-user-drag: none;  
+    user-select: none;
+}
 
 @media(max-width: 768px) {
 

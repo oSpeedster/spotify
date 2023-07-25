@@ -7,29 +7,19 @@
 }
 
 
-/* #nomemusica { */
+#nomemusica, #cantormusica {
 
     /* animation properties */
-    /* -moz-transform: translateX(100%);
+    -moz-transform: translateX(100%);
     -webkit-transform: translateX(100%);
     transform: translateX(100%);
     
-    -moz-animation: my-animation 15s linear infinite;
-    -webkit-animation: my-animation 15s linear infinite;
-    animation: my-animation 15s linear infinite; */
-/* } */
+    -moz-animation: my-animation 8s linear infinite;
+    -webkit-animation: my-animation 8s linear infinite;
+    animation: my-animation 8s linear infinite;
 
-/* #cantormusica { */
-    
-    /* animation properties */
-    /* -moz-transform: translateX(100%);
-    -webkit-transform: translateX(100%);
-    transform: translateX(100%);
-    
-    -moz-animation: my-animation 15s linear infinite;
-    -webkit-animation: my-animation 15s linear infinite;
-    animation: my-animation 15s linear infinite; */
-/* } */
+    width: 250px;
+}
 
 
 

@@ -165,3 +165,5 @@ function menuMobileClose() {
 
 
 // ===================================================================
+
+//document.querySelectorAll(".imagens").ondragstart = function() { return false; };
