@@ -527,11 +527,12 @@
 
     .tempomusica {
         width: 50px;
-        margin: 14px;
+        margin: 5px 0px 0px 15px;
     }
 
     .audiorange {
-        display: none;
+        /* display: none; */
+        display: block;
     }
 
     .progress-bar {
@@ -540,7 +541,8 @@
         background-color: #ddd;
         margin-top: 20px;
         border-radius: 10px;
-        display: flex;
+        /* display: flex; */
+        display: none;
         align-items: center;
       }
       
