@@ -57,7 +57,7 @@ function searchBoxTab() {
 
 // ===================================================================
 
-const audio = document.getElementById('audio');
+const audio = document.getElementById('audio')
 
 let playbotao = "./assets/imgs/playicon.png"
 let playicon = document.getElementById('playicon');
@@ -89,12 +89,35 @@ function loopFunction(delay, callback){
 
 loopFunction(200, botaomidia2)
 
+let validacao = ''
+
 function botaovoltar() {
+
     if(audio.currentTime = 0) {
         return
     } else {
         audio.currentTime = 0
     }
+
+    if(validacao == true) {
+        // let musicaPosicao =  parseInt(musica.posicao) - 1
+        // if(musicaPosicao == 0) musicaPosicao = 1
+        // try {
+        //     playlistTocar(eval(`musica${musicaPosicao}`))
+        //     } catch(err) {
+        //         musicaTocar(musica1)
+        //     }
+    }
+
+    validacao = true
+
+    function validacaoFunction() {
+        validacao = false
+    }
+
+    setTimeout(validacaoFunction, 1000);
+
+
 }
 
 function botaoavancar() {

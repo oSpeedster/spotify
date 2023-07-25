@@ -76,7 +76,6 @@ let musica7 = {
     posicao: '7'
     
 }
-
 // ------ MUSICAS ------ // 
 
 // ------ SCRIPT PL ------ // 
@@ -254,8 +253,6 @@ function playlistAleatorio() {
 
 
 }
-
-
 
 const progressb = document.getElementById('progressb');
 const progressbar = document.getElementById('progress-bar');
