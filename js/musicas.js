@@ -202,9 +202,7 @@ function playlistTocar(musica) {
 
 function playlistAleatorio() {
 
-    let numeroMusica = Math.floor(Math.random() * numeroTotal);
-
-    if(numeroMusica == 0) numeroMusica = 1;
+    let numeroMusica = Math.floor(Math.random() * numeroTotal) + 1;
 
     let aMusica = eval(`musica${numeroMusica}`)
 
