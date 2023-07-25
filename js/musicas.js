@@ -303,9 +303,16 @@ audiorange.addEventListener("input", function() {
         audio.pause()
         estavaTocando = true
     }
+
 }, false);
 
-  
+audiorange.addEventListener("input", function() {
+    audio.currentTime = (audio.duration  * (parseFloat(document.querySelector('.audiorange').value) / 100))
+}, false);
+
+
+
+
     //let mudarAudio = (audio.currentTime = (audio.duration  * (parseFloat(document.getElementById('progressprogress').style.width) / 100)))
 
   function testeProgress() {
