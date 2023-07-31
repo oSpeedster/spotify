@@ -113,10 +113,12 @@
     .musicas:hover {
         background-color: gray;
         cursor: pointer;
+        transition: .5s;
     }
 
     .musicas:hover .musicas-tudo {
         background-color: gray;
+        transition: .5s;
     }
 
         .iconemusicas {
