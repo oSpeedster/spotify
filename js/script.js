@@ -143,7 +143,7 @@ function botaoloop() {
 
 const saveicon = document.getElementById('saveicon')
 
-let saveicon1 = './assets/imgs/saveicon.png'
+let saveicon1 = './assets/imgs/w-saveicon.png'
 let saveicon2 = './assets/imgs/saveicon2.png'
 
 let verificacao = false
@@ -160,7 +160,7 @@ function saveIcon() {
     if(verificacao == true) {
         saveicon.src = './assets/imgs/saveicon2.png'
     } else {
-        saveicon.src = './assets/imgs/saveicon.png'
+        saveicon.src = './assets/imgs/w-saveicon.png'
     }
 }
 
