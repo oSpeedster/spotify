@@ -4,7 +4,11 @@
     height: 300px;
     display: flex;
     align-items: center;
-    background-color: #555;
+    /* background-color: #555; */
+}
+
+.playlistheader, .textoplh, .txtplh1, .txtplh2, .txtplh3 {
+    background-color: #272829;
 }
 
 .iconeplh {
@@ -17,24 +21,20 @@
 .textoplh {
     display: grid;
     height: 200px;
-    background-color: #555;
 
 }
 
     .txtplh1 {
         font-size: 16px;
-        background-color: #555;
     }
 
     .txtplh2 {
         font-size: 40px;
-        background-color: #555;
     }
 
     .txtplh3 {
         display: flex;
         align-items: center;
-        background-color: #555;
     }
 
         .perfilplh {
