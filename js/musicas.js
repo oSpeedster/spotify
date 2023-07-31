@@ -8,15 +8,6 @@ const iconeMusica = document.getElementById('iconebarra');
 let numeroTotal = 7
 
 let musica1 = {
-    nomeMusica: 'Plutão',
-    nomeArtista: 'VMZ',
-    linkMusica: './assets/Plutão_Alw_AUN9XNQ.mp3',
-    imgMusica: './assets/imgs/plutaoicon.jpg',
-    duracao: '3:41',
-    posicao: '1'
-}
-
-let musica2 = {
     nomeMusica: 'Annihilate',
     // Annihilate (Spider-Man: Across the Spider-Verse)
     nomeArtista: 'Metro Boomin',
@@ -24,37 +15,46 @@ let musica2 = {
     linkMusica: './assets/Annihilate_eFV2QHqiUww.mp3',
     imgMusica: './assets/imgs/annihilateicon.jpg',
     duracao: '3:51',
-    posicao: '2'
+    posicao: '1'
 }
 
-let musica3 = {
+let musica2 = {
     nomeMusica: 'Sunflower',
     nomeArtista: 'Post Malone',
     linkMusica: './assets/Sunflower_r7Rn4ryE_w8.mp3',
     imgMusica: './assets/imgs/sunflowericon.jpg',
     duracao: '2:38',
-    posicao: '3'
+    posicao: '2'
     
 }
 
-let musica4 = {
+let musica3 = {
     nomeMusica: 'I Ain’t Worried',
     nomeArtista: 'One Republic',
     linkMusica: './assets/I Ain’t Worried_W97Sv-SHnDU.mp3',
     imgMusica: './assets/imgs/iaintworriedicon.jpg',
     duracao: '2:27',
-    posicao: '4'
+    posicao: '3'
     
 }
 
-let musica5 = {
+let musica4 = {
     nomeMusica: 'Nothing Else Matters',
     nomeArtista: 'Metallica',
     linkMusica: './assets/Nothing Else Matters_ozXZnwYTMbs.mp3',
     imgMusica: './assets/imgs/nothingelsematters.jpg',
     duracao: '6:28',
-    posicao: '5'
+    posicao: '4'
     
+}
+
+let musica5 = {
+    nomeMusica: 'Until I Found You (Em Beihold Version)',
+    nomeArtista: 'Stephen Sanchez',
+    linkMusica: './assets/Until I Found You Em Beihold Version.mp3',
+    imgMusica: './assets/imgs/untilifoundyouicon.jpg',
+    duracao: '2:56',
+    posicao: '5'
 }
 
 let musica6 = {
