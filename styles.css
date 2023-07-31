@@ -81,8 +81,14 @@
     }
 
     .menuicon {
-        width: 100px;
-        height: 100px;
+        width: 70px;
+        height: 70px;
+        margin-left: 20px;
+        display: none;
+    }
+
+    #menuicon-2 {
+        margin-top: 20px;
     }
 
     .menu-mobile-open {
@@ -108,6 +114,10 @@
         padding: 2px;
         margin-left: 120px;
         list-style: none;
+    }
+
+    .menu-, .li-, .homeicon-, .homeli- {
+        background-color: #272829;
     }
 
     .li- {
@@ -717,7 +727,7 @@
         display: none;
     }
 
-    .menu-mobile {
+    .menu-mobile, .menuicon {
         display: block;
     }
 
