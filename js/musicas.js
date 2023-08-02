@@ -61,7 +61,7 @@ let musica6 = {
     nomeMusica: 'Creep (Acoustic)',
     nomeArtista: 'Radiohead',
     linkMusica: './assets/Creep (Acoustic)_4BX5xpB2DBM.mp3',
-    imgMusica: './assets/imgs/ceepicon.jpg',
+    imgMusica: './assets/imgs/creepicon.jpg',
     duracao: '4:18',
     posicao: '6'
     
