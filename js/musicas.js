@@ -222,7 +222,7 @@ function playlistAleatorio() {
     
         function aleatorioAcabar() {
             if(audio.currentTime == audio.duration) {
-                let numeroMusica2 = Math.floor(Math.random() * numeroTotal);
+                let numeroMusica2 = Math.floor(Math.random() * numeroTotal) + 1;
                 if(numeroMusica2 == 0) numeroMusica2 = 1;
 
                 aMusica = eval(`musica${numeroMusica2}`)
